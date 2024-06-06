@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodin</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2f16f61520.js" crossorigin="anonymous"></script>
+    <style>
+     :root {
+    --primary-color: #A82C4B;
+ --secondary-color: #43121d;
+   --third-color: #f98169;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
+    --primary-font: 'Robot', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif;
+     }
+     body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-color);
+    padding: 10px 20px;
+}
+ .ho {
+    color: var(--black-color);
+}
+.li1 {
+    color: var(--primary-color);
+}
+
+
+.navbar-left .logo {
+    height: 40px;
+}
+
+.navbar-right a {
+    
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+
+
+ .login-btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.login-btn:hover {
+    background-color: var(--secondary-color);
+    
+}
+.ma {
+        display: block;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 100px;
+    margin-top: 500px; */
+    background-image: url(../foodin/bg-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+      background-position: ;  
+      position: ;
+    }
+       
+     .he1 {
+    max-width: 50%;
+}
+
+.he1 h1 {
+    font-size: 3em;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+
+.sm p {
+    font-size: 1em;
+    color: var(--text-gray);
+    font-family: var(--text-color);
+}   
+.co {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+    padding: 10px 20px;
+} 
+.wh {
+    border: 1px solid var(--black-color);
+    color: var(--black-color);
+    padding: 10px 20px;
+    box-shadow: var(--black-color)  2px;
+}
+
+.wh:hover{
+    background-color: var(--secondary-color);
+}
+.co:hover{
+    background-color: var(--secondary-color);
+
+}
+.bu .co i{
+  margin-left: 10px;
+}
+.bu .wh i{
+  margin-left: 10px;
+}
+
+.bar {
+            background-color: var(--primary-color);
+            display: flex;
+            justify-content: space-between;
+            color: var(--white-color);
+            padding: 20px 300px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .image {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .cont h2{
+            flex: 1;
+            color: var(--secondary-color);
+            margin: 90px 20px 10px 20px;
+        }
+        .cont p{
+            flex: 1;
+            margin: 0 20px 40px 20px;
+        }
+        .cont button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px;
+            background-color: var(--primary-color);
+            color: var(--white-color);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 20px 30px 20px;
+            
+        }
+
+        .cont button:hover {
+            background-color: var(--secondary-color);
+        }
+        .s5 {
+            display: flex;
+
+        }
+        .cont {
+            text-align: left;
+            margin-top: 200px;
+            margin-left: 25px;
+        }
+        .cont h1 {
+            color: var(--secondary-color);
+            font-family: var(--secondary-font);
+        }
+        .cont p {
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="../foodin/logo (1).jpg" alt="Logo" class="logo" class="round-pill">
+        </div>
+        <div class="navbar-right">
+            <a href="#home" class="ho">Home</a>
+            <a href="#about" class="li1">About</a>
+            <a href="#explore" class="li1">Explore</a>
+            <a href="#review" class="li1">Review</a>
+            <a href="#faq" class="li1">FAQ</a>
+          
+            <a href="#login" class="login-btn">Login</a>
+        </div>
+    </nav>
+    <section class="ma">
+        <div class="he1">
+            <h1>BRINGING THE <br> WORLD TO YOUR <br> KITCHEN</h1>
+
+        </div>
+        <div class="sm">
+            <p>Experience the world food. Great taste starts here.</p>
+        </div>
+        <div class="bu">
+            <button class="co">Order Now<i class="fa-solid fa-bag-shopping"></i></button>
+            <button class="wh">Order Now<i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </section>
+    <div class="bar">
+        <div class="per"><h1>1234+</h1><br><p>SAVINGS</p></div>
+        <div class="per"><h1>1123+</h1><br><p>PHOTOS</p></div>
+
+        <div class="per"><h1>1634+</h1><br><p>ROCKETS</p></div>
+
+        <div class="per"><h1>1234+</h1><br><p>GLOBES</p></div>
+
+    </div>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+                <img src="img-1.png" alt="food" style="width:100%; height:auto; border-radius: 10px;">
+            </div>
+            <div class="cont">
+                <h2>We Pride Ourselves On <br>Making Real Food From The <br>Best Ingredients.</h2>
+                <p>Experience the world through food Greate taste starts here.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section class="s5">
+        <div class="cont">
+        <h1>We Make Everything By<br>Hand With The Best Possible<br>Ingredients.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi accusamus ipsa rem veritatis magni et quis suscipit assumenda. Labore quisquam voluptate, et libero ipsam reprehenderit tenetur eos ducimus nemo saepe!</p>
+        <ul><i class="fa-solid fa-check"></i> Lorem ipsum dolor sit</ul>
+        <ul><i class="fa-solid fa-check"></i> Lorem ipsum dolor sit </ul>
+        <ul><i class="fa-solid fa-check"></i> Lorem ipsum dolor sit </ul>
+        <button class="lm">Learn More</button>
+       </div>
+        <div class="pho">
+            <img src="../foodin/img-2.png" alt="menu">
+        </div>
+    
+    </section>
+</body>
+</html>

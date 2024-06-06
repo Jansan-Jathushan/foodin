@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --primary-color: #A82C4B;
+            --secondary-color: #3f0c17;
+            --third-color: #f98169;
+            --white-color: #fff;
+            --text-color: #555;
+            --text-gray: #999;
+            --black-color: #000;
+            --primary-font: 'Robot', sans-serif;
+            --secondary-font: 'Quicksand', sans-serif;
+        }
+        .heading {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-align: center;
+            color: var(--secondary-color);
+        }
+        .parag {
+            font-size: 1em;
+            margin: 10px 300px 20px 300px;
+            text-align: center;
+            color: var(--text-color);
+        }
+        .men {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            border: 1px solid var(--white-color);
+            border-radius: 8px;
+            width: 25%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: center;
+            padding: 10px;
+        }
+        .card img {
+            width: 100%;
+            border-bottom: 1px solid var(--white-color);
+            padding-bottom: 10px;
+            border-radius: 8px;
+        }
+        .name{
+            text-align: left;
+        }
+        .time{
+            text-align: left;
+        }
+        .avai {
+            font-size: 1.2em;
+            margin: 10px 0;
+            text-align: left;
+            color: var(--primary-color);
+        }
+        .unavai {
+            font-size: 1em;
+            margin: 10px 0;
+            color: var(--text-gray);
+            text-decoration: line-through;
+        }
+        .butt {
+            background-color: var(--primary-color);
+            color: var(--white-color);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .butt:hover {
+            background-color:var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Explorefoods -->
+    <section class="explore" id="explore">
+        
+        <div class="heading">Explore Our Foods</div>
+        <div class="parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum harum nisi qui reiciendis eaque, impedit vero deleniti cumque! Quisquam, ut sequi incidunt exercitationem quos sapiente tempore est eum suscipit eligendi!</div>
+        <div class="men">
+            <div class="card">
+                <img src="img-3.jpg" alt="Menu Item 1">
+                <div class="name">Rainbow Vegetable Sandwich</div>
+                <div class="time">Time 15 - 20 Minutes | Servers:1</div>
+                <h5 class="avai">400.00 <span class="unavai">500.00</span></h5>
+                <button class="butt">Order Now</button>
+            </div>
+            <div class="card">
+                <img src="img-4.jpg" alt="Menu Item 2">
+                <div class="name">Vegetable Burger</div>
+                <div class="time">Time 30 - 45 Minutes | Servers:1</div>
+                <h5 class="avai">600.00 <span class="unavai">800.00</span></h5>
+                <button class="butt">Order Now</button>
+            </div>
+            <div class="card">
+                <img src="img-5.jpg" alt="Menu Item 3">
+                <div class="name">Raspberry Stuffed French Toast</div>
+                <div class="time">Time 10 - 20 Minutes | Servers:1</div>
+                <h5 class="avai">1000.00 <span class="unavai">1300.00</span></h5>
+                <button class="butt">Order Now</button>
+            </div>
+        </div>
+    
+</section>
+</body>
+</html>
